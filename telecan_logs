@@ -1,0 +1,769 @@
+04-09 21:52:30.733 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_Connected_X_2xx
+04-09 21:52:30.733 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:52:30.733 21413 23604 I tinyWRAP: 
+04-09 21:52:30.733 21413 23604 I tinyWRAP: 
+04-09 21:52:30.733 21413 23604 I tinyWRAP: 
+04-09 21:52:30.733 21413 23604 I tinyWRAP: 
+04-09 21:52:30.733 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:30.733 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-485326645
+04-09 21:52:30.733 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:52:30.733 21413 23604 I tinyWRAP: CSeq: 91825082 REGISTER
+04-09 21:52:30.733 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:30.733 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b074699d100-8f41bc7-13d8-65014-be9fc-7bbccbaf-be9fc
+04-09 21:52:30.733 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:30.733 21413 23604 I tinyWRAP: RECV:SIP/2.0 200 OK
+04-09 21:52:30.733 21413 23604 I tinyWRAP: 
+04-09 21:52:30.733 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:30.665 21413 21413 I tinyWRAP: *INFO: State machine: No matching state found.
+04-09 21:52:30.665 21413 21413 I tinyWRAP: *INFO: Stack Already started
+04-09 21:52:30.665 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-09 21:52:30.665 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-09 21:52:30.664 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-09 21:52:30.664 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-09 21:52:30.664 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-09 21:52:30.664 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-09 21:52:30.663 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-09 21:52:30.663 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-09 21:52:30.663 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-09 21:52:30.662 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-09 21:52:30.661 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-09 21:52:30.661 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-09 21:52:30.661 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-09 21:52:30.661 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-09 21:52:30.661 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-09 21:52:30.661 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-09 21:52:30.661 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-09 21:52:30.660 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-09 21:52:30.660 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-09 21:52:30.660 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-09 21:52:30.660 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:84b2:4d8e:87bb:dbfe%21
+04-09 21:52:30.660 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:cd90:e1dc:6991:4265%21
+04-09 21:52:30.650 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-09 21:52:30.650 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-09 21:52:30.650 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-09 21:52:30.650 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-09 21:52:30.644 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:52:30.643 21413 23604 I tinyWRAP: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b07469e6310",uri="sip:199.27.244.13",response="02b9680f015b9f59d5c87929a6c67e83",algorithm=MD5,cnonce="f71123c89c6e2103c8e2ea58fde27902",qop=auth,nc=00000001
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Max-Forwards: 70
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:30.643 21413 23604 I tinyWRAP: CSeq: 91825082 REGISTER
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:52:30.643 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:30.643 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:30.643 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-485326645;rport
+04-09 21:52:30.643 21413 23604 I tinyWRAP: SEND: REGISTER sip:19.27.244.13 SIP/2.0
+04-09 21:52:30.643 21413 23604 I tinyWRAP: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:30.643 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-09 21:52:30.642 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_InProgress_X_401_407_421_494
+04-09 21:52:30.642 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:52:30.642 21413 23604 I tinyWRAP: 
+04-09 21:52:30.642 21413 23604 I tinyWRAP: 
+04-09 21:52:30.642 21413 23604 I tinyWRAP: 
+04-09 21:52:30.642 21413 23604 I tinyWRAP: 
+04-09 21:52:30.642 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:30.642 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-1833753436
+04-09 21:52:30.642 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:52:30.642 21413 23604 I tinyWRAP: WWW-Authenticate: Digest realm="sip1.telcan.com",nonce="2b07469e6310",stale=true,algorithm=MD5,qop="auth"
+04-09 21:52:30.642 21413 23604 I tinyWRAP: CSeq: 91825081 REGISTER
+04-09 21:52:30.642 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:30.642 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b07469e6310-8f41bc7-13d8-65014-be9fc-2d8db7f9-be9fc
+04-09 21:52:30.642 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:30.642 21413 23604 I tinyWRAP: RECV:SIP/2.0 401 Unauthorized
+04-09 21:52:30.642 21413 23604 I tinyWRAP: 
+04-09 21:52:30.642 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:30.554 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:52:30.553 21413 21413 I tinyWRAP: 
+04-09 21:52:30.553 21413 21413 I tinyWRAP: 
+04-09 21:52:30.553 21413 21413 I tinyWRAP: 
+04-09 21:52:30.553 21413 21413 I tinyWRAP: 
+04-09 21:52:30.553 21413 21413 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b074698e490",uri="sip:199.27.244.13",response="1f2d78c87192b23261afa593cccbe8d7",algorithm=MD5,cnonce="76b72213c8d47e4fdf231379ec1fa3ad",qop=auth,nc=00000002
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Max-Forwards: 70
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Content-Length: 0
+04-09 21:52:30.553 21413 21413 I tinyWRAP: CSeq: 91825081 REGISTER
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:52:30.553 21413 21413 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:30.553 21413 21413 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:30.553 21413 21413 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-1833753436;rport
+04-09 21:52:30.553 21413 21413 I tinyWRAP: SEND: REGISTER sip:199.27.244.13 SIP/2.0
+04-09 21:52:30.553 21413 21413 I tinyWRAP: 
+04-09 21:52:30.553 21413 21413 I tinyWRAP: *INFO: 
+04-09 21:52:30.552 21413 21413 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-09 21:52:30.552 21413 21413 I tinyWRAP: *INFO: State machine: tsip_dialog_register_Connected_2_InProgress_X_oRegister
+04-09 21:52:30.552 21413 21413 I tinyWRAP: *INFO: Stack Already started
+04-09 21:52:30.552 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-09 21:52:30.551 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-09 21:52:30.551 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-09 21:52:30.550 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-09 21:52:30.549 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-09 21:52:30.549 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-09 21:52:30.549 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-09 21:52:30.549 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-09 21:52:30.549 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-09 21:52:30.549 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-09 21:52:30.549 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-09 21:52:30.548 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-09 21:52:30.548 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-09 21:52:30.548 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-09 21:52:30.548 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:84b2:4d8e:87bb:dbfe%21
+04-09 21:52:30.548 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:cd90:e1dc:6991:4265%21
+04-09 21:52:30.541 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-09 21:52:30.541 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-09 21:52:30.541 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-09 21:52:30.540 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-09 21:52:20.780 21413 21413 D com.app.GTel.Screens.ScreenCallRecordings: onCreate
+04-09 21:52:20.775 21413 21413 D com.app.GTel.Screens.ScreenCallRecordings: onCreate
+04-09 21:52:20.769 21413 21413 D com.app.GTel.Screens.ScreenCallRecordings: onCreate
+04-09 21:52:20.729 21413 21413 D com.app.GTel.Screens.ScreenCallRecordings: onCreate
+04-09 21:52:14.472 21413 23601 I tinyWRAP: *INFO: *** NICT destroyed ***
+04-09 21:52:14.472 21413 23601 I tinyWRAP: *INFO: === NICT terminated ===
+04-09 21:52:14.472 21413 23601 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Completed_2_Terminated_X_timerK
+04-09 21:52:14.385 21413 23601 I tinyWRAP: *INFO: *** NICT destroyed ***
+04-09 21:52:14.385 21413 23601 I tinyWRAP: *INFO: === NICT terminated ===
+04-09 21:52:14.385 21413 23601 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Completed_2_Terminated_X_timerK
+04-09 21:52:12.244 21413 21413 E com.app.GTel.Screens.ScreenTabHistory: Not registered yet
+04-09 21:52:11.002 21413 21413 E com.app.GTel.Screens.ScreenTabHistory: Not registered yet
+04-09 21:52:09.471 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_Connected_X_2xx
+04-09 21:52:09.471 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:52:09.471 21413 23604 I tinyWRAP: 
+04-09 21:52:09.471 21413 23604 I tinyWRAP: 
+04-09 21:52:09.471 21413 23604 I tinyWRAP: 
+04-09 21:52:09.471 21413 23604 I tinyWRAP: 
+04-09 21:52:09.471 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:09.471 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-435400990
+04-09 21:52:09.471 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:52:09.471 21413 23604 I tinyWRAP: CSeq: 91825080 REGISTER
+04-09 21:52:09.471 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:09.471 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b07469a9f20-8f41bc7-13d8-65014-be9e7-26d1f47c-be9e7
+04-09 21:52:09.471 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:09.471 21413 23604 I tinyWRAP: RECV:SIP/2.0 200 OK
+04-09 21:52:09.471 21413 23604 I tinyWRAP: 
+04-09 21:52:09.471 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:09.385 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:52:09.384 21413 23604 I tinyWRAP: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b074698e490",uri="sip:199.27.244.13",response="b1543ee237772eb2cf59efe3973641d2",algorithm=MD5,cnonce="76b72213c8d47e4fdf231379ec1fa3ad",qop=auth,nc=00000001
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Max-Forwards: 70
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:09.384 21413 23604 I tinyWRAP: CSeq: 91825080 REGISTER
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:52:09.384 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:09.384 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:09.384 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-435400990;rport
+04-09 21:52:09.384 21413 23604 I tinyWRAP: SEND: REGISTER sip:199.27.244.13 SIP/2.0
+04-09 21:52:09.384 21413 23604 I tinyWRAP: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:09.384 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-09 21:52:09.384 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_InProgress_X_401_407_421_494
+04-09 21:52:09.384 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:52:09.381 21413 23604 I tinyWRAP: 
+04-09 21:52:09.381 21413 23604 I tinyWRAP: 
+04-09 21:52:09.381 21413 23604 I tinyWRAP: 
+04-09 21:52:09.381 21413 23604 I tinyWRAP: 
+04-09 21:52:09.381 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:52:09.381 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-1079628892
+04-09 21:52:09.381 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:52:09.381 21413 23604 I tinyWRAP: WWW-Authenticate: Digest realm="sip1.telcan.com",nonce="2b074698e490",stale=true,algorithm=MD5,qop="auth"
+04-09 21:52:09.381 21413 23604 I tinyWRAP: CSeq: 91825079 REGISTER
+04-09 21:52:09.381 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:09.381 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b074698e490-8f41bc7-13d8-65014-be9e7-6957fdf6-be9e7
+04-09 21:52:09.381 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:09.381 21413 23604 I tinyWRAP: RECV:SIP/2.0 401 Unauthorized
+04-09 21:52:09.381 21413 23604 I tinyWRAP: 
+04-09 21:52:09.381 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:52:09.373 21413 21413 I tinyWRAP: *INFO: State machine: No matching state found.
+04-09 21:52:09.373 21413 21413 I tinyWRAP: *INFO: Stack Already started
+04-09 21:52:09.373 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-09 21:52:09.373 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-09 21:52:09.368 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-09 21:52:09.367 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-09 21:52:09.366 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-09 21:52:09.366 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-09 21:52:09.366 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-09 21:52:09.366 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-09 21:52:09.366 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-09 21:52:09.366 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-09 21:52:09.366 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-09 21:52:09.365 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-09 21:52:09.365 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-09 21:52:09.365 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-09 21:52:09.365 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-09 21:52:09.365 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:84b2:4d8e:87bb:dbfe%21
+04-09 21:52:09.365 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:cd90:e1dc:6991:4265%21
+04-09 21:52:09.352 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-09 21:52:09.352 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-09 21:52:09.352 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-09 21:52:09.352 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-09 21:52:09.284 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:52:09.280 21413 21413 I tinyWRAP: 
+04-09 21:52:09.280 21413 21413 I tinyWRAP: 
+04-09 21:52:09.280 21413 21413 I tinyWRAP: 
+04-09 21:52:09.280 21413 21413 I tinyWRAP: 
+04-09 21:52:09.280 21413 21413 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b07469fd7e8",uri="sip:199.27.244.13",response="0c5217ad74de0a087c29f5ad9a12be01",algorithm=MD5,cnonce="b7fece477a3cccff20c572f985ae53d9",qop=auth,nc=00000002
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Max-Forwards: 70
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Content-Length: 0
+04-09 21:52:09.280 21413 21413 I tinyWRAP: CSeq: 91825079 REGISTER
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:52:09.280 21413 21413 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:52:09.280 21413 21413 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:52:09.280 21413 21413 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-1079628892;rport
+04-09 21:52:09.280 21413 21413 I tinyWRAP: SEND: REGISTER sip:199.217.244.113 SIP/2.0
+04-09 21:52:09.280 21413 21413 I tinyWRAP: 
+04-09 21:52:09.280 21413 21413 I tinyWRAP: *INFO: 
+04-09 21:52:09.278 21413 21413 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-09 21:52:09.270 21413 21413 I tinyWRAP: *INFO: State machine: tsip_dialog_register_Connected_2_InProgress_X_oRegister
+04-09 21:52:09.267 21413 21413 I tinyWRAP: *INFO: Stack Already started
+04-09 21:52:09.267 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-09 21:52:09.266 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-09 21:52:09.262 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-09 21:52:09.261 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-09 21:52:09.260 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-09 21:52:09.259 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-09 21:52:09.259 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-09 21:52:09.259 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-09 21:52:09.259 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-09 21:52:09.256 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:84b2:4d8e:87bb:dbfe%21
+04-09 21:52:09.256 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:cd90:e1dc:6991:4265%21
+04-09 21:52:09.242 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-09 21:52:09.240 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-09 21:52:09.221 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-09 21:52:09.221 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-09 21:52:09.055 21413 21413 E com.app.GTel.Services.Impl.ScreenService: Failed to retrieve the Screen with id=null
+04-09 21:50:24.771 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:50:22.797 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:27:29.614 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:23:59.092 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:23:42.273 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:23:36.899 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:23:11.765 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:19:33.224 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:18:46.729 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:18:40.742 21413 23587 D org.doubango.ngn.services.impl.NgnContactService: Native address book changed
+04-09 21:03:32.699 21413 23601 I tinyWRAP: *INFO: *** NICT destroyed ***
+04-09 21:03:32.699 21413 23601 I tinyWRAP: *INFO: === NICT terminated ===
+04-09 21:03:32.699 21413 23601 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Completed_2_Terminated_X_timerK
+04-09 21:03:32.606 21413 23601 I tinyWRAP: *INFO: *** NICT destroyed ***
+04-09 21:03:32.606 21413 23601 I tinyWRAP: *INFO: === NICT terminated ===
+04-09 21:03:32.606 21413 23601 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Completed_2_Terminated_X_timerK
+04-09 21:03:31.902 21413 21413 E com.app.GTel.Screens.ScreenTabHistory: Not registered yet
+04-09 21:03:30.432 21413 21413 E com.app.GTel.Screens.ScreenTabHistory: Not registered yet
+04-09 21:03:27.699 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_Connected_X_2xx
+04-09 21:03:27.699 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:03:27.699 21413 23604 I tinyWRAP: 
+04-09 21:03:27.699 21413 23604 I tinyWRAP: 
+04-09 21:03:27.699 21413 23604 I tinyWRAP: 
+04-09 21:03:27.699 21413 23604 I tinyWRAP: 
+04-09 21:03:27.699 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:03:27.699 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-105006311
+04-09 21:03:27.699 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:03:27.699 21413 23604 I tinyWRAP: CSeq: 91825078 REGISTER
+04-09 21:03:27.699 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:03:27.699 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b0746966b08-8f41bc7-13d8-65014-bde7e-166c63a7-bde7e
+04-09 21:03:27.699 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:03:27.699 21413 23604 I tinyWRAP: RECV:SIP/2.0 200 OK
+04-09 21:03:27.699 21413 23604 I tinyWRAP: 
+04-09 21:03:27.699 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:03:27.607 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:03:27.606 21413 23604 I tinyWRAP: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Supported: path
+04-09 21:03:27.606 21413 23604 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b07469fd7e8",uri="sip:199.27.244.13",response="718c79ed33bf6b129c69f16855f8fc8d",algorithm=MD5,cnonce="b7fece477a3cccff20c572f985ae53d9",qop=auth,nc=00000001
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Max-Forwards: 70
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:03:27.606 21413 23604 I tinyWRAP: CSeq: 91825078 REGISTER
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:03:27.606 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:03:27.606 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:03:27.606 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-105006311;rport
+04-09 21:03:27.606 21413 23604 I tinyWRAP: SEND: REGISTER sip:189.27.244.13 SIP/2.0
+04-09 21:03:27.606 21413 23604 I tinyWRAP: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:03:27.606 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-09 21:03:27.605 21413 23604 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_InProgress_X_401_407_421_494
+04-09 21:03:27.605 21413 23604 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-09 21:03:27.601 21413 23604 I tinyWRAP: 
+04-09 21:03:27.601 21413 23604 I tinyWRAP: 
+04-09 21:03:27.601 21413 23604 I tinyWRAP: 
+04-09 21:03:27.601 21413 23604 I tinyWRAP: 
+04-09 21:03:27.601 21413 23604 I tinyWRAP: Content-Length: 0
+04-09 21:03:27.601 21413 23604 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;rport=57119;branch=z9hG4bK-231460509
+04-09 21:03:27.601 21413 23604 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700
+04-09 21:03:27.601 21413 23604 I tinyWRAP: WWW-Authenticate: Digest realm="sip1.telcan.com",nonce="2b07469fd7e8",stale=true,algorithm=MD5,qop="auth"
+04-09 21:03:27.601 21413 23604 I tinyWRAP: CSeq: 91825077 REGISTER
+04-09 21:03:27.601 21413 23604 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:03:27.601 21413 23604 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b07469fd7e8-8f41bc7-13d8-65014-bde7e-561a1779-bde7e
+04-09 21:03:27.601 21413 23604 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:03:27.601 21413 23604 I tinyWRAP: RECV:SIP/2.0 401 Unauthorized
+04-09 21:03:27.601 21413 23604 I tinyWRAP: 
+04-09 21:03:27.601 21413 23604 I tinyWRAP: *INFO: 
+04-09 21:03:27.571 21413 21413 D com.app.GTel.Main: onActivityResult(0,0)
+04-09 21:03:27.565 21413 21413 D com.app.GTel.Engine: showAppNotif
+04-09 21:03:27.549 21413 21413 D com.app.GTel.Engine: showAppNotif
+04-09 21:03:27.541 21413 21413 I tinyWRAP: *INFO: State machine: No matching state found.
+04-09 21:03:27.541 21413 21413 I tinyWRAP: *INFO: Stack Already started
+04-09 21:03:27.541 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-09 21:03:27.541 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-09 21:03:27.541 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-09 21:03:27.540 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-09 21:03:27.539 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-09 21:03:27.538 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-09 21:03:27.538 21413 21413 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:84b2:4d8e:87bb:dbfe%21
+04-09 21:03:27.538 21413 21413 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:cd90:e1dc:6991:4265%21
+04-09 21:03:27.531 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-09 21:03:27.531 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-09 21:03:27.531 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-09 21:03:27.531 21413 21413 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-09 21:03:27.504 21413 23602 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-09 21:03:27.498 21413 21413 I tinyWRAP: 
+04-09 21:03:27.498 21413 21413 I tinyWRAP: 
+04-09 21:03:27.498 21413 21413 I tinyWRAP: 
+04-09 21:03:27.498 21413 21413 I tinyWRAP: 
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Supported: path
+04-09 21:03:27.498 21413 21413 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="199.27.244.13",nonce="",uri="sip:199.27.244.13",response=""
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Max-Forwards: 70
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Content-Length: 0
+04-09 21:03:27.498 21413 21413 I tinyWRAP: CSeq: 91825077 REGISTER
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Call-ID: 9ddbcbdb-8aca-cacd-eda2-221199f43015
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:57119;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-09 21:03:27.498 21413 21413 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-09 21:03:27.498 21413 21413 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=1088143380
+04-09 21:03:27.498 21413 21413 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:57119;branch=z9hG4bK-231460509;rport
+04-09 21:03:27.498 21413 21413 I tinyWRAP: SEND: REGISTER sip:199.127.244.13 SIP/2.0
+04-09 21:03:27.498 21413 21413 I tinyWRAP: 
+04-09 21:03:27.498 21413 21413 I tinyWRAP: *INFO: 
+--------- beginning of main
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.756  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.746  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.746  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+04-08 21:26:01.746  6873  6873 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, repeatCount=0, eventTime=57490670, downTime=57490600, deviceId=-1, source=0x101 }
+--------- beginning of system
+
+04-16 00:26:42.889 10367 12085 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_Connected_X_2xx
+04-16 00:26:42.889 10367 12085 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-16 00:26:42.889 10367 12085 I tinyWRAP:
+04-16 00:26:42.889 10367 12085 I tinyWRAP:
+04-16 00:26:42.889 10367 12085 I tinyWRAP:
+04-16 00:26:42.889 10367 12085 I tinyWRAP:
+04-16 00:26:42.889 10367 12085 I tinyWRAP: Content-Length: 0
+04-16 00:26:42.889 10367 12085 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:45369;rport=45369;branch=z9hG4bK-944228511
+04-16 00:26:42.889 10367 12085 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:45369;transport=udp>;expires=1700
+04-16 00:26:42.889 10367 12085 I tinyWRAP: CSeq: 1945788314 REGISTER
+04-16 00:26:42.889 10367 12085 I tinyWRAP: Call-ID: af9fb052-9553-aeba-cece-53536041fdfd
+04-16 00:26:42.889 10367 12085 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b2a069eaed8-8f41bc7-13d8-65014-33230-51a628a4-33230
+04-16 00:26:42.889 10367 12085 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=116821706
+04-16 00:26:42.889 10367 12085 I tinyWRAP: RECV:SIP/2.0 200 OK
+04-16 00:26:42.889 10367 12085 I tinyWRAP:
+04-16 00:26:42.889 10367 12085 I tinyWRAP: *INFO:
+04-16 00:26:42.807 10367 10367 D com.app.GTel.Main: onActivityResult(0,0)
+04-16 00:26:42.800 10367 12082 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-16 00:26:42.799 10367 12085 I tinyWRAP:
+04-16 00:26:42.799 10367 12085 I tinyWRAP:
+04-16 00:26:42.799 10367 12085 I tinyWRAP:
+04-16 00:26:42.799 10367 12085 I tinyWRAP:
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Supported: path
+04-16 00:26:42.799 10367 12085 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="sip1.telcan.com",nonce="2b2a06a01790",uri="sip:199.27.244.13",response="22eaede463c8f79c29ff002e5368e610",algorithm=MD5,cnonce="444330c76fa3aae67a33517866da2ec6",qop=auth,nc=00000001
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Max-Forwards: 70
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Content-Length: 0
+04-16 00:26:42.799 10367 12085 I tinyWRAP: CSeq: 1945788314 REGISTER
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Call-ID: af9fb052-9553-aeba-cece-53536041fdfd
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:45369;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-16 00:26:42.799 10367 12085 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-16 00:26:42.799 10367 12085 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=116821706
+04-16 00:26:42.799 10367 12085 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:45369;branch=z9hG4bK-944228511;rport
+04-16 00:26:42.799 10367 12085 I tinyWRAP: SEND: REGISTER sip:199.227.244.13 SIP/2.0
+04-16 00:26:42.799 10367 12085 I tinyWRAP:
+04-16 00:26:42.799 10367 12085 I tinyWRAP: *INFO:
+04-16 00:26:42.799 10367 12085 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-16 00:26:42.798 10367 12085 I tinyWRAP: *INFO: State machine: tsip_dialog_register_InProgress_2_InProgress_X_401_407_421_494
+04-16 00:26:42.798 10367 12085 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Trying_2_Completed_X_200_to_699
+04-16 00:26:42.790 10367 10367 D com.app.GTel.Engine: showAppNotif
+04-16 00:26:42.770 10367 12085 I tinyWRAP:
+04-16 00:26:42.770 10367 12085 I tinyWRAP:
+04-16 00:26:42.770 10367 12085 I tinyWRAP:
+04-16 00:26:42.770 10367 12085 I tinyWRAP:
+04-16 00:26:42.770 10367 12085 I tinyWRAP: Content-Length: 0
+04-16 00:26:42.770 10367 12085 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:45369;rport=45369;branch=z9hG4bK-617733481
+04-16 00:26:42.770 10367 12085 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:45369;transport=udp>;expires=1700
+04-16 00:26:42.770 10367 12085 I tinyWRAP: WWW-Authenticate: Digest realm="sip1.telcan.com",nonce="2b2a06a01790",stale=true,algorithm=MD5,qop="auth"
+04-16 00:26:42.770 10367 12085 I tinyWRAP: CSeq: 1945788313 REGISTER
+04-16 00:26:42.770 10367 12085 I tinyWRAP: Call-ID: af9fb052-9553-aeba-cece-53536041fdfd
+04-16 00:26:42.770 10367 12085 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>;tag=2b2a06a01790-8f41bc7-13d8-65014-33230-7cdbf9e-33230
+04-16 00:26:42.770 10367 12085 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=116821706
+04-16 00:26:42.770 10367 12085 I tinyWRAP: RECV:SIP/2.0 401 Unauthorized
+04-16 00:26:42.770 10367 12085 I tinyWRAP:
+04-16 00:26:42.770 10367 12085 I tinyWRAP: *INFO:
+04-16 00:26:42.747 10367 10367 D com.app.GTel.Engine: showAppNotif
+04-16 00:26:42.739 10367 10367 I tinyWRAP: *INFO: State machine: No matching state found.
+04-16 00:26:42.739 10367 10367 I tinyWRAP: *INFO: Stack Already started
+04-16 00:26:42.739 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:42.739 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:42.739 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:42.739 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:42.739 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:42.738 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:42.738 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:42.738 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:42.738 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:42.738 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:42.737 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:42.737 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:42.737 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:42.737 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:42.736 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:42.736 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:42.736 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:42.736 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:42.735 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:42.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:42.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:42.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:42.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:42.734 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:42.734 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:42.734 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:42.734 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:42.723 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:42.722 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:42.722 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:42.722 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:42.672 10367 12082 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent ((un)REGISTER request successfully sent.,1)
+04-16 00:26:42.662 10367 10367 I tinyWRAP:
+04-16 00:26:42.662 10367 10367 I tinyWRAP:
+04-16 00:26:42.662 10367 10367 I tinyWRAP:
+04-16 00:26:42.662 10367 10367 I tinyWRAP:
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Supported: path
+04-16 00:26:42.662 10367 10367 I tinyWRAP: P-Preferred-Identity: <sip:19958009-19958009@199.27.244.13>
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Authorization: Digest username="19958009-19958009",realm="199.27.244.13",nonce="",uri="sip:199.27.244.13",response=""
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Max-Forwards: 70
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Content-Length: 0
+04-16 00:26:42.662 10367 10367 I tinyWRAP: CSeq: 1945788313 REGISTER
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Call-ID: af9fb052-9553-aeba-cece-53536041fdfd
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Contact: <sip:19958009-19958009@192.168.0.13:45369;transport=udp>;expires=1700;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs";+g.3gpp.cs-voice
+04-16 00:26:42.662 10367 10367 I tinyWRAP: To: <sip:19958009-19958009@199.27.244.13>
+04-16 00:26:42.662 10367 10367 I tinyWRAP: From: <sip:19958009-19958009@199.27.244.13>;tag=116821706
+04-16 00:26:42.662 10367 10367 I tinyWRAP: Via: SIP/2.0/UDP 192.168.0.13:45369;branch=z9hG4bK-617733481;rport
+04-16 00:26:42.662 10367 10367 I tinyWRAP: SEND: REGISTER sip:199.27.24.113 SIP/2.0
+04-16 00:26:42.662 10367 10367 I tinyWRAP:
+04-16 00:26:42.662 10367 10367 I tinyWRAP: *INFO:
+04-16 00:26:42.659 10367 10367 I tinyWRAP: *INFO: State machine: tsip_transac_nict_Started_2_Trying_X_send
+04-16 00:26:42.658 10367 12082 D org.doubango.ngn.services.impl.NgnSipService: OnDialogEvent (Dialog connecting,1)
+04-16 00:26:42.656 10367 10367 I tinyWRAP: *INFO: State machine: tsip_dialog_register_Started_2_InProgress_X_oRegister
+04-16 00:26:42.653 10367 12082 D org.doubango.ngn.services.impl.NgnSipService: Stack started
+04-16 00:26:42.650 10367 12086 I tinyWRAP: *INFO: Starting [SIP transport] server with IP {192.168.0.13} on port {45369} using fd {42} with type {3}...
+04-16 00:26:42.650 10367 12085 I tinyWRAP: *INFO: Transport::run() - enter
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: SIP STACK -- START
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: Socket added[SIP transport]: fd=42, tail.count=2
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: master fd=42
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: Socket added[SIP transport]: fd=43, tail.count=1
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: pipeR fd=43
+04-16 00:26:42.650 10367 10367 I tinyWRAP: *INFO: tnet_transport_prepare()
+04-16 00:26:42.649 10367 12083 I tinyWRAP: *INFO: TIMER MANAGER -- START
+04-16 00:26:42.649 10367 12082 I tinyWRAP: *INFO: SIP STACK::run -- START
+04-16 00:26:42.649 10367 12081 I tinyWRAP: *INFO: Timer manager run()::enter
+04-16 00:26:42.649 10367 10367 I tinyWRAP: *INFO: Proxy-CSCF=[199.27.244.13]:5060
+04-16 00:26:42.649 10367 10367 I tinyWRAP: *INFO: tsk_timer_manager_start
+04-16 00:26:42.649 10367 10367 I tinyWRAP: *INFO: Stack running in CLIENT mode
+04-16 00:26:42.637 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: netType=1 and netSubType=0
+04-16 00:26:42.637 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: acquireNetworkLock()
+04-16 00:26:42.637 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:42.637 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:42.637 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:42.636 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:42.635 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:42.634 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:42.634 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:42.634 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:42.634 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:42.634 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:42.634 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:42.633 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:42.633 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:42.633 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:42.633 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:42.633 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:42.633 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:42.620 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:42.620 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:42.619 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:42.619 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:42.568 10367 10367 D com.app.GTel.Screens.ScreenSplash: onReceive()
+04-16 00:26:42.567 10367 10367 D com.app.GTel.NativeService: onStart()
+04-16 00:26:42.567 10367 10367 D org.doubango.ngn.NgnNativeService: onStart()
+04-16 00:26:42.485 10367 12064 D org.doubango.ngn.services.impl.NgnHistoryService: History loaded
+04-16 00:26:42.029 10367 12065 I OpenGLRenderer: Initialized EGL, version 1.4
+04-16 00:26:42.016 10367 12065 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 10/21/15, 369a2ea, I96aee987eb
+04-16 00:26:41.954 10367 12067 D org.doubango.ngn.services.impl.NgnContactService: Observer Looper enter()
+04-16 00:26:41.953 10367 12064 D org.doubango.ngn.services.impl.NgnHistoryService: Loading history
+04-16 00:26:41.953 10367 12064 D org.doubango.ngn.services.impl.NgnSoundService: starting...
+04-16 00:26:41.952 10367 12064 D org.doubango.ngn.services.impl.NgnSipService: starting...
+04-16 00:26:41.952 10367 12064 D org.doubango.ngn.services.impl.NgnContactService: starting...
+04-16 00:26:41.950 10367 12064 D org.doubango.ngn.services.impl.NgnHistoryService: Starting...
+04-16 00:26:41.945 10367 12064 D org.doubango.ngn.services.impl.NgnHttpClientService: Starting...
+04-16 00:26:41.943 10367 12065 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+04-16 00:26:41.940 10367 12064 D org.doubango.ngn.services.impl.NgnNetworkService: Starting...
+04-16 00:26:41.940 10367 12064 D org.doubango.ngn.services.impl.NgnStorageService: starting...
+04-16 00:26:41.939 10367 12064 D org.doubango.ngn.services.impl.NgnConfigurationService: starting...
+04-16 00:26:41.939 10367 12064 D com.app.GTel.Screens.ScreenSplash: Starts the engine from the splash screen
+04-16 00:26:41.791 10367 10367 E org.doubango.ngn.services.impl.NgnSipService: Failed to start the SIP stack
+04-16 00:26:41.789 10367 10367 E org.doubango.ngn.services.impl.NgnNetworkService: No active network
+04-16 00:26:41.789 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: WiFi not enabled
+04-16 00:26:41.789 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: netType=1 and netSubType=0
+04-16 00:26:41.789 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: acquireNetworkLock()
+04-16 00:26:41.789 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:41.789 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:41.789 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:41.788 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:41.787 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:41.786 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:41.786 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:41.786 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:41.786 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:41.786 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:41.786 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:41.786 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:41.785 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:41.785 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:41.785 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:41.785 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:41.777 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:41.777 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:41.777 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:41.777 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:41.736 10367 10367 E org.doubango.ngn.services.impl.NgnSipService: Failed to start the SIP stack
+04-16 00:26:41.735 10367 10367 E org.doubango.ngn.services.impl.NgnNetworkService: No active network
+04-16 00:26:41.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: WiFi not enabled
+04-16 00:26:41.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: netType=1 and netSubType=0
+04-16 00:26:41.735 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: acquireNetworkLock()
+04-16 00:26:41.735 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:41.735 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:41.735 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:41.734 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:41.733 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:41.732 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:41.732 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:41.732 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:41.732 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:41.732 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:41.732 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:41.731 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:41.731 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:41.731 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:41.731 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:41.731 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:41.723 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:41.723 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:41.723 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:41.723 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:41.680 10367 10367 E com.app.GTel.Services.Impl.ScreenService: Failed to retrieve the Screen with id=null
+04-16 00:26:41.679 10367 10367 E org.doubango.ngn.services.impl.NgnSipService: Failed to start the SIP stack
+04-16 00:26:41.677 10367 10367 E org.doubango.ngn.services.impl.NgnNetworkService: No active network
+04-16 00:26:41.677 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: WiFi not enabled
+04-16 00:26:41.677 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: netType=1 and netSubType=0
+04-16 00:26:41.677 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: acquireNetworkLock()
+04-16 00:26:41.677 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:41.677 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:41.677 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:41.677 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:41.677 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:41.676 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:41.675 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:41.675 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:41.675 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:41.675 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:41.675 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:41.674 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:41.673 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:41.673 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:41.673 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:41.673 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:41.673 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:41.673 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:41.672 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:41.672 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:41.672 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:41.672 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:41.664 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:41.664 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:41.664 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:41.663 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:41.600 10367 10367 W PhoneWindow: Previously focused view reported id 2131362036 during save, but can't be found during restore.
+04-16 00:26:41.597 10367 10367 E org.doubango.ngn.services.impl.NgnSipService: Failed to start the SIP stack
+04-16 00:26:41.572 10367 10367 E org.doubango.ngn.services.impl.NgnNetworkService: No active network
+04-16 00:26:41.572 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: WiFi not enabled
+04-16 00:26:41.572 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: netType=1 and netSubType=0
+04-16 00:26:41.572 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: acquireNetworkLock()
+04-16 00:26:41.572 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: TLS - pvk='null' pbk='null' ca='null' verify=false
+04-16 00:26:41.572 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: Local IP='192.168.0.13'
+04-16 00:26:41.570 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet8 is not up
+04-16 00:26:41.569 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet4 is not up
+04-16 00:26:41.569 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet3 is not up
+04-16 00:26:41.569 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet2 is not up
+04-16 00:26:41.569 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet7 is not up
+04-16 00:26:41.568 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet6 is not up
+04-16 00:26:41.568 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet5 is not up
+04-16 00:26:41.568 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet1 is not up
+04-16 00:26:41.568 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rev_rmnet0 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet1 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet0 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet4 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet3 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet2 is not up
+04-16 00:26:41.567 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet7 is not up
+04-16 00:26:41.566 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet6 is not up
+04-16 00:26:41.566 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=rmnet5 is not up
+04-16 00:26:41.566 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 127.0.0.1
+04-16 00:26:41.566 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: ::1%1
+04-16 00:26:41.566 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::f8a9:d0ff:fe3f:9b72%p2p0
+04-16 00:26:41.565 10367 10367 I org.doubango.ngn.services.impl.NgnNetworkService: interface=sit0 is not up
+04-16 00:26:41.565 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 192.168.0.13
+04-16 00:26:41.565 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: fe80::faa9:d0ff:fe3f:9b72%wlan0
+04-16 00:26:41.565 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:faa9:d0ff:fe3f:9b72%21
+04-16 00:26:41.565 10367 10367 D org.doubango.ngn.services.impl.NgnNetworkService: 2606:6000:cd47:6b00:8175:778d:9c74:e05c%21
+04-16 00:26:41.549 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: pcscf-host='199.27.244.13', pcscf-port='5060', transport='UDP', ipversion='ipv4'
+04-16 00:26:41.548 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: STUN2 - server=numb.viagenie.ca and port=3478
+04-16 00:26:41.511 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: realm='sip:199.27.244.13', impu='sip:19958009-19958009@199.27.244.13', impi='19958009-19958009'
+04-16 00:26:41.509 10367 10367 D org.doubango.ngn.services.impl.NgnSipService: register()
+04-16 00:26:41.341 10367 10367 E com.app.GTel.Services.Impl.ScreenService: Failed to retrieve the Screen with id=com.app.GTel.Screens.ScreenTabHome
+04-16 00:26:41.331 10367 10367 W PhoneWindow: Previously focused view reported id 2131362036 during save, but can't be found during restore.
+04-16 00:19:01.061 10367 10367 D com.app.GTel.NativeService: onStart()
+04-16 00:19:01.061 10367 10367 D org.doubango.ngn.NgnNativeService: onStart()
+04-16 00:19:01.054 10367 10367 D com.app.GTel.NativeService: onCreate()
+04-16 00:19:01.054 10367 10367 D org.doubango.ngn.NgnNativeService: onCreate()
+04-16 00:19:01.051 10367 10367 D org.doubango.ngn.NgnEngine: Configure AEC[true/100] AEC_TAIL_ADAPT[false] NoiseSuppression[true], Voice activity detection[false]
+04-16 00:19:00.995 10367 10367 D org.doubango.ngn.NgnApplication: sGlEsVersion=196608
+04-16 00:19:00.833 10367 10367 W linker  : /data/app/com.app.GTel-1/lib/arm/libtinyWRAP_neon.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+04-16 00:19:00.821 10367 10367 D org.doubango.ngn.NgnEngine: isCpuNeon()=YES
+04-16 00:19:00.820 10367 10367 D org.doubango.ngn.NgnEngine: CPU_Feature=15
+04-16 00:19:00.699 10367 10367 W linker  : /data/app/com.app.GTel-1/lib/arm/libutils_armv5te.so: unused DT entry: type 0xf arg 0x1438
+04-16 00:19:00.675 10367 10367 D org.doubango.ngn.NgnApplication: Build.VERSION.SDK=23
+04-16 00:19:00.675 10367 10367 D org.doubango.ngn.NgnApplication: Build.MODEL=nexus 5
+04-16 00:19:00.675 10367 10367 D com.app.GTel.GlobalTel: GlobalTel()
+--------- beginning of main
