@@ -50,3 +50,10 @@ test_patterns('abbaaabbbbaaaaa',
                 'a(ab)*',   # 'a' followed by 0-n 'ab'
                 'a(ab)+',   # 'a' followed by 1-n 'ab'
                 ])
+Code	Meaning
+^	start of string, or line
+$	end of string, or line
+\A	start of string
+\Z	end of string
+\b	empty string at the beginning or end of a word
+\B	empty string not at the beginning or end of a word
