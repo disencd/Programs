@@ -1,3 +1,8 @@
+Online tool that can help us in verifying the regular expressions
+#######################################
+http://pythex.org/
+########################################
+
 for pattern in patterns:
         print 'Matching "%s"' % pattern
         for match in re.finditer(pattern, text):
