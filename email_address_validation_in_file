@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 21 10:23:50 2016
+@Details:Fetching email address using regular expressions
+@author: disencd
+"""
+
+import re
+
+def email_validation(log):
+    address = re.compile('[\w\d.+-]+@([\w\d.]+\.)+(com|org|edu)', re.UNICODE)
+    with open(log) as fh:
+        for line in fh:
+            match = address.search(line)
+            if match:
+                print(line[2:-3])
+            
+email_validation("log_file")
