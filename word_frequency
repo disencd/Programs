@@ -1,0 +1,14 @@
+"""
+Created on Thu Apr 21 13:37:45 2016
+
+@author: disencd
+"""
+
+wordstring = 'it was the best of times it was the worst of times it it'
+wordstring += 'it was the age of wisdom it was the age of foolishness'
+wordlist = wordstring.split()
+
+wordfreq = [(w,wordlist.count(w)) for w in wordlist]
+
+print(set(wordfreq))
+print(sorted(set(wordfreq[1])))
