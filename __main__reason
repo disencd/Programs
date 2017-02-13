@@ -1,4 +1,4 @@
-
+What does the if __name__ == "__main__": do?
 
 When the Python interpreter reads a source file, it executes all of the code found in it.
 
