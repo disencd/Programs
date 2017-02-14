@@ -1,0 +1,21 @@
+'''
+we can extend the dict class, which is the long way of creating a dictionary (the {:} syntax).
+'''
+
+class Longnamedict(dict):
+	def longest_dict(self):
+		longest = None
+		for key in self:
+			if not longest or len(key) > len(longest):
+				longest = key
+
+		return longest
+
+ 
+longkeys = Longnamedict()
+longkeys["hello"] = 1
+longkeys["world"] = 2
+longkeys["wowww hello world"] = 2
+longkeys["hello world"] = 2
+
+print (longkeys.longest_dict())
