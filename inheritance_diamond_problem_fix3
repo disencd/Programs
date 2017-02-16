@@ -1,0 +1,38 @@
+'''
+We have to design our base class parameter lists so that
+they accept keyword arguments for any argument that is
+not required by every subclass implementation. We also
+have to ensure the method accepts arguments it doesn't
+expect and pass those on in its super call, in case they
+are necessary to later methods in the inheritance order.
+'''
+
+class Contact:
+    all_contacts = []
+    def __init__(self, name='', email='', **kwargs):
+        super().__init__(**kwargs)
+        self.name = name
+        self.email = email
+        self.all_contacts.append(self)
+
+class AddressHolder:
+    def __init__(self, street='', city='', state='', code='', **kwargs):
+        super().__init__(**kwargs)
+        self.street = street
+        self.city = city
+        self.state = state
+        self.code = code
+
+class Friend(Contact, AddressHolder):
+    def __init__(self, phone='', **kwargs):
+        super().__init__(**kwargs)
+        self.phone = phone
+
+'''
+We've changed all arguments to keyword arguments by
+giving them an empty string as a default value. We've also
+ensured that a **kwargs parameter is included to capture
+any additional parameters that our particular method doesn't
+know what to do with. It passes these parameters up to the
+next class with the super call.
+'''
