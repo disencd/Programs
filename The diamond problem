@@ -111,3 +111,32 @@ s = Subclass()
 s.call_me()
 print(s.num_sub_calls, s.num_left_calls, s.num_right_calls,s.num_base_calls)
 
+'''
+We have to design our base class parameter lists so that
+they accept keyword arguments for any argument that is
+not required by every subclass implementation. We also
+have to ensure the method accepts arguments it doesn't
+expect and pass those on in its super call, in case they
+are necessary to later methods in the inheritance order.
+'''
+
+class Contact:
+    all_contacts = []
+    def __init__(self, name='', email='', **kwargs):
+        super().__init__(**kwargs)
+        self.name = name
+        self.email = email
+        self.all_contacts.append(self)
+
+class AddressHolder:
+    def __init__(self, street='', city='', state='', code='', **kwargs):
+        super().__init__(**kwargs)
+        self.street = street
+        self.city = city
+        self.state = state
+        self.code = code
+
+class Friend(Contact, AddressHolder):
+    def __init__(self, phone='', **kwargs):
+        super().__init__(**kwargs)
+        self.phone = phone
