@@ -140,3 +140,11 @@ class Friend(Contact, AddressHolder):
     def __init__(self, phone='', **kwargs):
         super().__init__(**kwargs)
         self.phone = phone
+'''
+We've changed all arguments to keyword arguments by 
+giving them an empty string as a default value. We've also 
+ensured that a **kwargs parameter is included to capture 
+any additional parameters that our particular method doesn't 
+know what to do with. It passes these parameters up to the 
+next class with the super call.
+'''
