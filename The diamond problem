@@ -1,0 +1,113 @@
+The diamond problem
+
+The tricky part is that we now have two parent __init__ methods that both need to be initialized. 
+And they need to be initialized with different arguments. 
+
+How do we do that? Well, we could start with the naïve approach:
+
+class Friend(Contact, AddressHolder):
+  def __init__(self, name, email, phone, street, city, state, code):
+      Contact.__init__(self, name, email)
+      AddressHolder.__init__(self, street, city, state, code)
+      self.phone = phone
+      
+
+Disadvantages
+
+First, it is possible for a superclass to go uninitialized if we neglect to explicitly call the initializer. 
+This is not bad in this example, but it could cause bad program crashes in common scenarios. 
+Imagine, for example, trying to insert data into a database that has not been connected to.
+
+Second, and more sinister, is the possibility of a superclass being called
+multiple times, because of the organization of the class hierarchy. 
+
+
+we have a base class that has a method named call_me. 
+Two subclasses override that method, and then another subclass extends both of these using multiple inheritance.
+
+class BaseClass:
+  num_base_calls = 0
+  def call_me(self):
+  print("Calling method on Base Class")
+  self.num_base_calls += 1
+
+class LeftSubclass(BaseClass):
+  num_left_calls = 0
+  def call_me(self):
+  BaseClass.call_me(self)
+  print("Calling method on Left Subclass")
+  self.num_left_calls += 1
+  
+class RightSubclass(BaseClass):
+  num_right_calls = 0
+  def call_me(self):
+  BaseClass.call_me(self)
+  print("Calling method on Right Subclass")
+  self.num_right_calls += 1
+
+class Subclass(LeftSubclass, RightSubclass):
+  num_sub_calls = 0
+  def call_me(self):
+    LeftSubclass.call_me(self)
+    RightSubclass.call_me(self)
+    print("Calling method on Subclass")
+    self.num_sub_calls += 1
+    
+
+The thing to keep in mind with multiple inheritance is that we only want to call 
+the "next" method in the class hierarchy, not the "parent" method. In fact, 
+that next method may not be on a parent or ancestor of the current class. 
+The super keyword comes to our rescue once again. Indeed, super was originally 
+developed to make complicated forms of multiple inheritance possible. 
+Here is the same code written using super:
+
+class BaseClass(object):
+    num_base_calls = 0
+    
+    def call_me(self):
+        print("Calling method on Base Class")
+        self.num_base_calls += 1
+
+
+class LeftSubclass(BaseClass):
+    num_left_calls = 0
+
+    def call_me(self):
+        super().call_me()
+        print("Calling method on Left Subclass")
+        self.num_left_calls += 1
+
+
+class RightSubclass(BaseClass):
+    num_right_calls = 0
+
+    def call_me(self):
+        super(self).call_me()
+        print("Calling method on Right Subclass")
+        self.num_right_calls += 1
+
+
+class Subclass(LeftSubclass, RightSubclass):
+    num_sub_calls = 0
+
+    def call_me(self):
+        super(self).call_me()
+        print("Calling method on Subclass")
+        self.num_sub_calls += 1
+
+'''
+First call_me of Subclass calls super().call_me(),
+which happens to refer to LeftSubclass.call_me().
+LeftSubclass.call_me() then calls super().call_me(),
+but in this case, super() is referring to RightSubclass.call_me().
+Pay particular attention to this; the super call is not calling
+the method on the superclass of LeftSubclass (which is BaseClass),
+it is calling RightSubclass, even though it is not a parent of
+LeftSubclass! This is the next method, not the parent method.
+RightSubclass then calls BaseClass and the super calls have
+ensured each method in the class hierarchy is executed once.
+'''
+s = Subclass()
+s.call_me()
+print(s.num_sub_calls, s.num_left_calls, s.num_right_calls,s.num_base_calls)
+
