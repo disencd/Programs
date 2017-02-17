@@ -5,7 +5,7 @@ def print_dir_path(spath):
 
     for schild in os.listdir(spath):
         schildpath = os.path.join(spath,schild)
-
+        #Recursion
         if os.path.isdir(schildpath):
             print_dir_path(schildpath)
 
