@@ -1,5 +1,5 @@
 '''
-Programs:100_python_program_20_slice_list.py
+Programs:100_python_program_30_slice_list.py
 Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 
