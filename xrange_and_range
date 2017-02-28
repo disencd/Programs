@@ -1,0 +1,6 @@
+xrange is a sequence object that evaluates lazily. 
+range creates a list, so if you do range(1, 10000000) it creates 
+a list in memory with 10000000 elements. xrange is a generator, 
+so it is a sequence object is a that evaluates lazily. 
+
+Remember, use the timeit module to test which of small snipps of code is faster!
