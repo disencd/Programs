@@ -1,0 +1,20 @@
+
+class Person:
+    name = 'Adam'
+
+p = Person()
+print('Before modification:', p.name)
+
+# setting name to 'John'
+setattr(p, 'name', 'John')
+
+print('After modification:', p.name)
+
+setattr(p, 'address', '1690 Civic Center Dr')
+
+print('Added new attribute:', p.__getattribute__('address'))
+
+a = Person()
+print('Added address attribute:', p.__getattribute__('address'))
+print('print name attribute:', a.__getattribute__('name'))
+
