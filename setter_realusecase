@@ -1,0 +1,58 @@
+
+
+class lib:
+    def __init__(self, a=None, b=None, c=None, d=None):
+        self.a = a
+        self.b = b
+        self.c = c
+        self.d = d
+
+    def my_print(self):
+        print('a {}'.format(self.a))
+        print('b {}'.format(self.b))
+        print('c {}'.format(self.c))
+        print('d {}'.format(self.d))
+
+    @property
+    def a(self):
+        return self.__a
+
+    @a.setter
+    def a(self, a):
+        if a is None:
+            self.__a = 'Im None'
+        elif a > 100:
+            self.__a = 'APL'
+        elif a < -1:
+            self.__a = 'BPL'
+        else:
+            self.__a = a
+
+
+    @property
+    def b(self):
+        return self.__b
+
+    @b.setter
+    def b(self, b):
+        if b is None:
+            self.__b = 'Im B Grade'
+        elif b > 100:
+            self.__b = 'B APL'
+        elif b < -1:
+            self.__b = 'B BPL'
+        else:
+            self.__b = b
+
+
+def test():
+    mydict = {}
+    mydict['a'] = 1000
+    mydict['b'] = -10
+    mydict['c'] = 30
+    mydict['d'] = 40
+
+    a = lib(**mydict)
+    a.my_print()
+
+test()
