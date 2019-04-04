@@ -1,0 +1,34 @@
+def wrap_exceptions(fun):
+    """Decorator which translates bare OSError and WindowsError
+    exceptions into NoSuchProcess and AccessDenied.
+    """
+    @functools.wraps(fun)
+    def wrapper(self, *args, **kwargs):
+        try:
+            return fun(self, *args, **kwargs)
+        except OSError as err:
+            if err.errno in ACCESS_DENIED_ERRSET:
+                raise AccessDenied(self.pid, self._name)
+            if err.errno == errno.ESRCH:
+                raise NoSuchProcess(self.pid, self._name)
+            raise
+    return wrapper
+
+@wrap_exceptions
+def name(self):
+    """Return process name, which on Windows is always the final
+    part of the executable.
+    """
+    # This is how PIDs 0 and 4 are always represented in taskmgr
+    # and process-hacker.
+    if self.pid == 0:
+        return "System Idle Process"
+    elif self.pid == 4:
+        return "System"
+    else:
+        try:
+            # Note: this will fail with AD for most PIDs owned
+            # by another user but it's faster.
+            return py2_strencode(os.path.basename(self.exe()))
+        except AccessDenied:
+            return py2_strencode(cext.proc_name(self.pid))
