@@ -1,0 +1,14 @@
+def a_fun():
+  print("Returning A")
+
+def b_fun():
+  print("Returning B")
+
+mydict = {
+  "A":a_fun,
+  "B":b_fun
+}
+
+val = 'B'
+if val in mydict:
+  mydict.get(val)()
