@@ -1,0 +1,23 @@
+
+
+class A:
+    def amethod(self):
+        print("Calling from class A amethod")
+
+
+class B(A):
+    def __init__(self):
+        print("Calling from class B constructor")
+
+    def amethod(self):
+        # want to trigger super method, ie method from parent 
+        # class eventhough parent and chid class name is same
+        return super(B,self).amethod()
+
+    def bmethod(self):
+        # if parent and child method name is different, no need to use name as super method
+        return self.amethod()
+
+obj = B()
+obj.amethod()
+obj.bmethod()
